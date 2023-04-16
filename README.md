@@ -3,7 +3,7 @@
 The type re-declaration of the `EventEmitter` class defined and exposed by the `node:events` module.
 
 ```ts
-imoort { EventEmitter } from '@juhan280/typed-emitter';
+import { EventEmitter } from '@juhan280/typed-emitter';
 
 type Events = {
   message: [message: string];
