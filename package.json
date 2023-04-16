@@ -1,0 +1,36 @@
+{
+  "name": "@juhan280/typed-emitter",
+  "version": "1.0.0",
+  "description": "The type re-declaration of the `EventEmitter` class defined and exposed by the `node:events` module.",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs",
+      "types": "./index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juhan280/typed-emitter.git"
+  },
+  "keywords": [
+    "event-emitter",
+    "typescript",
+    "types",
+    "events",
+    "emitter"
+  ],
+  "author": "Juhan280",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juhan280/typed-emitter/issues"
+  },
+  "homepage": "https://github.com/Juhan280/typed-emitter#readme"
+}
