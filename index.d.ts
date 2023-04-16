@@ -7,7 +7,7 @@ export type EventMap = Record<string | symbol, any[]>;
  *
  * @example
  * ```ts
- * imoort { EventEmitter } from '@juhan280/typed-emitter';
+ * import { EventEmitter } from '@juhan280/typed-emitter';
  *
  * type Events = {
  *   message: [message: string];
